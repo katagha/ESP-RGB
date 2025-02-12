@@ -17,7 +17,7 @@ ESP-RGB is a simple web-based RGB control project for ESP8266, where users can c
 
 ### Requirements
 - ESP8266 (or compatible device).
-- MicroPython installed on the ESP8266. (! adding Documentation later )
+- MicroPython installed on the ESP8266.
 - A web browser to control the RGB LED.
 
 ### Installing MicroPython on ESP8266 (and ESP-like devices)

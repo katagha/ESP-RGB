@@ -30,6 +30,7 @@ ESP-RGB is a simple web-based RGB control project for ESP8266, where users can c
 ### Instructions
 
 1. copy the files to the ESP8266 flash memory (! adding Documentation later )
+> **_NOTE:_**  if you want the code to run when device is powered-on copy pace it to the `boot.py` file  
 2. Run the `main.py` 
 3. The ESP8266 will start as an access point (SSID: `ESP-RGB`, password: `test1234`).
 4. Connect your device to the ESP-RGB WiFi network.

@@ -20,6 +20,23 @@ ESP-RGB is a simple web-based RGB control project for ESP8266, where users can c
 - MicroPython installed on the ESP8266. (! adding Documentation later )
 - A web browser to control the RGB LED.
 
+### Installing MicroPython on ESP8266 (and ESP-like devices)
+
+#### Steps
+
+1. **Download** the latest MicroPython binary for your microcontroller from [micropython.org](https://micropython.org/download).
+2. **Install ESPTool** by downloading and installing [ESPTool](https://github.com/espressif/esptool).
+3. **Connect your ESP8266**  
+   - If your board has built-in USB (e.g., NodeMCU, Wemos D1 Mini), connect it directly via USB.  
+   - Otherwise, use a USB-TTL adapter.  
+4. **Find the serial port** for your device:  
+   - **Linux/macOS:** Run `ls /dev/ttyUSB*` (commonly `/dev/ttyUSB0`).  
+   - **Windows:** Check Device Manager (e.g., `COM3`).  
+5. **Flash MicroPython** using the following command:  
+   ```sh
+   esptool.py --port <PORT> write_flash --flash_size=detect 0x0000 <PATH_TO_MICROPYTHON_BINARY>
+
+
 ### Files
 - **main.py**: Python code running on the ESP8266, setting up the access point, handling web server requests, and controlling the RGB LED. 
 > **_NOTE:_**  if you want the code to run when device is powered-on copy pace it to the `boot.py` file  

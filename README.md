@@ -35,8 +35,6 @@ ESP-RGB is a simple web-based RGB control project for ESP8266, where users can c
 5. **Flash MicroPython** using the following command:  
    ```sh
    esptool.py --port <PORT> write_flash --flash_size=detect 0x0000 <PATH_TO_MICROPYTHON_BINARY>
-
-
 ### Files
 - **main.py**: Python code running on the ESP8266, setting up the access point, handling web server requests, and controlling the RGB LED. 
 > **_NOTE:_**  if you want the code to run when device is powered-on copy pace it to the `boot.py` file  

@@ -56,7 +56,7 @@ ESP-RGB is a simple web-based RGB control project for ESP8266, where users can c
       
       3. In the **Port** dropdown, select your **ESP8266 board**.
       
-      4.  You should see in the shell 
+      4.  You should see in the shell somthing like :
       `MicroPython v1.24.1 on 2024-11-29; ESP module with ESP8266  
       Type "help()" for more information.`
       

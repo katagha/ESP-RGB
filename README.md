@@ -15,7 +15,7 @@ ESP-RGB is a simple web-based RGB control project for ESP8266, where users can c
 
 ## Setup
 
-### Requirements
+## Requirements
 - ESP8266 (or compatible device).
 - MicroPython installed on the ESP8266.
 - A web browser to control the RGB LED.
@@ -35,21 +35,21 @@ ESP-RGB is a simple web-based RGB control project for ESP8266, where users can c
 5. **Flash MicroPython** using the following command:  
    ```sh
    esptool.py --port <PORT> write_flash --flash_size=detect 0x0000 <PATH_TO_MICROPYTHON_BINARY>
-### Files
+## Files
 - **main.py**: Python code running on the ESP8266, setting up the access point, handling web server requests, and controlling the RGB LED. 
 > **_NOTE:_**  if you want the code to run when device is powered-on copy pace it to the `boot.py` file  
 - **index.html**: The web page users interact with to control the LED color.
 - **main.css**: Stylesheet to beautify the user interface.
 - **Home.js**: JavaScript that sends the selected color to the server via a POST request.
 
-### Instructions
+## Instructions
 
 1. copy the files to the ESP8266 flash memory 
-   #### Copying Files to ESP8266 Flash Using Thonny
+   ### Copying Files to ESP8266 Flash Using Thonny
 
       The easiest way to copy files to the ESP8266 flash is by using Thonny's text editor.
 
-   ##### Steps:
+   #### Steps:
 
       1. Launch **Thonny**.
       2. Go to **Run > Configure Interpreter** and  Select **MicroPython (ESP8266)** as the interpreter.

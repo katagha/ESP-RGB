@@ -2,9 +2,7 @@
 
 ESP-RGB is a simple web-based RGB control project for ESP8266, where users can connect their devices to the ESP as an access point and control the RGB LED color via a color picker in the browser. 
 ![final](https://github.com/user-attachments/assets/058859eb-cf8f-4d8d-b005-ee9d063cbd14)
-
-### Am working on the documentation 📄✨
-
+![Screenshot_20250212_193129](https://github.com/user-attachments/assets/a3023810-ef88-4111-9176-0fbe52c07023)
 
 ## Features
 - Control RGB LED using a color picker on the web page.

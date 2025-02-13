@@ -47,22 +47,22 @@ ESP-RGB is a simple web-based RGB control project for ESP8266, where users can c
 1. copy the files to the ESP8266 flash memory 
    #### Copying Files to ESP8266 Flash Using Thonny
 
-The easiest way to copy files to the ESP8266 flash is by using Thonny's text editor.
+      The easiest way to copy files to the ESP8266 flash is by using Thonny's text editor.
 
-##### Steps:
+   ##### Steps:
 
-1. Launch **Thonny**.
-2. Go to **Run > Configure Interpreter** and  Select **MicroPython (ESP8266)** as the interpreter.
-
-3. In the **Port** dropdown, select your **ESP8266 board**.
-
-4.  You should see in the shell 
-`MicroPython v1.24.1 on 2024-11-29; ESP module with ESP8266  
-Type "help()" for more information.  `
-`>>>`
-5. Open the file you want to upload (e.g., `index.html`) by going to **File > Open**.
-6. Go to **File > Save Copy As** and Choose **MicroPython device** 
-7. Enter the correct file name (e.g., `index.html`), and save it directly to the ESP8266 flash storage.
+      1. Launch **Thonny**.
+      2. Go to **Run > Configure Interpreter** and  Select **MicroPython (ESP8266)** as the interpreter.
+      
+      3. In the **Port** dropdown, select your **ESP8266 board**.
+      
+      4.  You should see in the shell 
+      `MicroPython v1.24.1 on 2024-11-29; ESP module with ESP8266  
+      Type "help()" for more information.  `
+      `>>>`
+      5. Open the file you want to upload (e.g., `index.html`) by going to **File > Open**.
+      6. Go to **File > Save Copy As** and Choose **MicroPython device** 
+      7. Enter the correct file name (e.g., `index.html`), and save it directly to the ESP8266 flash storage.
 > **_NOTE:_**  if you want the code to run when device is powered-on copy pace it to the `boot.py` file  
 2. Run the `main.py` 
 3. The ESP8266 will start as an access point (SSID: `ESP-RGB`, password: `test1234`).

@@ -58,8 +58,8 @@ ESP-RGB is a simple web-based RGB control project for ESP8266, where users can c
       
       4.  You should see in the shell 
       `MicroPython v1.24.1 on 2024-11-29; ESP module with ESP8266  
-      Type "help()" for more information.  `
-      `>>>`
+      Type "help()" for more information.`
+      
       5. Open the file you want to upload (e.g., `index.html`) by going to **File > Open**.
       6. Go to **File > Save Copy As** and Choose **MicroPython device** 
       7. Enter the correct file name (e.g., `index.html`), and save it directly to the ESP8266 flash storage.
